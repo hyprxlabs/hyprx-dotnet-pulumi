@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Hyprx.Pulumi.TlsSelfSignedCert.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Hyprx.Pulumi.TlsSelfSignedCert.Tests.csproj" />
+  </Folder>
+</Solution>

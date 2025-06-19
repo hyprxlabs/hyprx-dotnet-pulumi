@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Hyprx.Pulumi.ProxmoxVE.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Hyprx.Pulumi.ProxmoxVE.Tests.csproj" />
+  </Folder>
+</Solution>

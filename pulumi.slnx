@@ -1,0 +1,129 @@
+<Solution>
+  <Folder Name="/sdk/" />
+  <Folder Name="/sdk/Acme/" />
+  <Folder Name="/sdk/Acme/src/">
+    <Project Path="sdk/Acme/src/Hyprx.Pulumi.Acme.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Acme/test/">
+    <Project Path="sdk/Acme/test/Hyprx.Pulumi.Acme.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/AwsNative/" />
+  <Folder Name="/sdk/AwsNative/src/">
+    <Project Path="sdk/AwsNative/src/Hyprx.Pulumi.AwsNative.csproj" />
+  </Folder>
+  <Folder Name="/sdk/AwsNative/test/">
+    <Project Path="sdk/AwsNative/test/Hyprx.Pulumi.AwsNative.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/AzureAd/" />
+  <Folder Name="/sdk/AzureAd/src/">
+    <Project Path="sdk/AzureAd/src/Hyprx.Pulumi.AzureAd.csproj" />
+  </Folder>
+  <Folder Name="/sdk/AzureAd/test/">
+    <Project Path="sdk/AzureAd/test/Hyprx.Pulumi.AzureAd.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/AzureDevOps/" />
+  <Folder Name="/sdk/AzureDevOps/src/">
+    <Project Path="sdk/AzureDevOps/src/Hyprx.Pulumi.AzureDevOps.csproj" />
+  </Folder>
+  <Folder Name="/sdk/AzureDevOps/test/">
+    <Project Path="sdk/AzureDevOps/test/Hyprx.Pulumi.AzureDevOps.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/AzureNative/" />
+  <Folder Name="/sdk/AzureNative/src/">
+    <Project Path="sdk/AzureNative/src/Hyprx.Pulumi.AzureNative.csproj" />
+  </Folder>
+  <Folder Name="/sdk/AzureNative/test/">
+    <Project Path="sdk/AzureNative/test/Hyprx.Pulumi.AzureNative.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Cloudflare/" />
+  <Folder Name="/sdk/Cloudflare/src/">
+    <Project Path="sdk/Cloudflare/src/Hyprx.Pulumi.Cloudflare.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Cloudflare/test/">
+    <Project Path="sdk/Cloudflare/test/Hyprx.Pulumi.Cloudflare.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Command/" />
+  <Folder Name="/sdk/Command/src/">
+    <Project Path="sdk/Command/src/Hyprx.Pulumi.Command.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Command/test/">
+    <Project Path="sdk/Command/test/Hyprx.Pulumi.Command.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/DigitalOcean/" />
+  <Folder Name="/sdk/DigitalOcean/src/">
+    <Project Path="sdk/DigitalOcean/src/Hyprx.Pulumi.DigitalOcean.csproj" />
+  </Folder>
+  <Folder Name="/sdk/DigitalOcean/test/">
+    <Project Path="sdk/DigitalOcean/test/Hyprx.Pulumi.DigitalOcean.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Docker/" />
+  <Folder Name="/sdk/Docker/src/">
+    <Project Path="sdk/Docker/src/Hyprx.Pulumi.Docker.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Docker/test/">
+    <Project Path="sdk/Docker/test/Hyprx.Pulumi.Docker.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/FluentBuilder/" />
+  <Folder Name="/sdk/FluentBuilder/src/">
+    <Project Path="sdk/FluentBuilder/src/Hyprx.Pulumi.FluentBuilder.csproj" />
+  </Folder>
+  <Folder Name="/sdk/FluentBuilder/test/">
+    <Project Path="sdk/FluentBuilder/test/Hyprx.Pulumi.FluentBuilder.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Github/" />
+  <Folder Name="/sdk/Github/src/">
+    <Project Path="sdk/Github/src/Hyprx.Pulumi.Github.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Github/test/">
+    <Project Path="sdk/Github/test/Hyprx.Pulumi.Github.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Libvirt/" />
+  <Folder Name="/sdk/Libvirt/src/">
+    <Project Path="sdk/Libvirt/src/Hyprx.Pulumi.Libvirt.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Libvirt/test/">
+    <Project Path="sdk/Libvirt/test/Hyprx.Pulumi.Libvirt.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/ProxmoxVE/" />
+  <Folder Name="/sdk/ProxmoxVE/src/">
+    <Project Path="sdk/ProxmoxVE/src/Hyprx.Pulumi.ProxmoxVE.csproj" />
+  </Folder>
+  <Folder Name="/sdk/ProxmoxVE/test/">
+    <Project Path="sdk/ProxmoxVE/test/Hyprx.Pulumi.ProxmoxVE.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Random/" />
+  <Folder Name="/sdk/Random/src/">
+    <Project Path="sdk/Random/src/Hyprx.Pulumi.Random.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Random/test/">
+    <Project Path="sdk/Random/test/Hyprx.Pulumi.Random.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Slack/" />
+  <Folder Name="/sdk/Slack/src/">
+    <Project Path="sdk/Slack/src/Hyprx.Pulumi.Slack.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Slack/test/">
+    <Project Path="sdk/Slack/test/Hyprx.Pulumi.Slack.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/TlsSelfSignedCert/" />
+  <Folder Name="/sdk/TlsSelfSignedCert/src/">
+    <Project Path="sdk/TlsSelfSignedCert/src/Hyprx.Pulumi.TlsSelfSignedCert.csproj" />
+  </Folder>
+  <Folder Name="/sdk/TlsSelfSignedCert/test/">
+    <Project Path="sdk/TlsSelfSignedCert/test/Hyprx.Pulumi.TlsSelfSignedCert.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Unfi/" />
+  <Folder Name="/sdk/Unfi/src/">
+    <Project Path="sdk/Unfi/src/Hyprx.Pulumi.Unfi.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Unfi/test/">
+    <Project Path="sdk/Unfi/test/Hyprx.Pulumi.Unfi.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Vault/" />
+  <Folder Name="/sdk/Vault/src/">
+    <Project Path="sdk/Vault/src/Hyprx.Pulumi.Vault.csproj" />
+  </Folder>
+  <Folder Name="/sdk/Vault/test/">
+    <Project Path="sdk/Vault/test/Hyprx.Pulumi.Vault.Tests.csproj" />
+  </Folder>
+</Solution>

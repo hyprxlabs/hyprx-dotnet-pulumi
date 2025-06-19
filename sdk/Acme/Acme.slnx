@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Hyprx.Pulumi.Acme.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Hyprx.Pulumi.Acme.Tests.csproj" />
+  </Folder>
+</Solution>

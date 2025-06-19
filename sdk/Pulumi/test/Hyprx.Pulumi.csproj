@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">  
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Hyprx.Pulumi</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Hyprx.Pulumi</PackageTags>
+    <Description>
+        Hyprx.Pulumi
+    </Description>
+    <PackageReleaseNotes Condition="Exists('$(MSBuildProjectDirectory)/CHANGELOG.md')">
+      $([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/CHANGELOG.md"))
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Condition="Exists('README.md')" Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>

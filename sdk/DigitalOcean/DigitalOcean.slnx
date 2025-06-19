@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Hyprx.Pulumi.DigitalOcean.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Hyprx.Pulumi.DigitalOcean.Tests.csproj" />
+  </Folder>
+</Solution>

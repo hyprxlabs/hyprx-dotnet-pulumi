@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Hyprx.Pulumi.Libvirt.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Hyprx.Pulumi.Libvirt.Tests.csproj" />
+  </Folder>
+</Solution>
