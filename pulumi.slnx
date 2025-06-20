@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/sdk/" />
+  <Folder Name="/sdk/">
+    <Project Path="sdk/PulumiGen/PulumiGen.csproj" />
+  </Folder>
   <Folder Name="/sdk/Acme/" />
   <Folder Name="/sdk/Acme/src/">
     <Project Path="sdk/Acme/src/Hyprx.Pulumi.Acme.csproj" />
@@ -62,13 +64,6 @@
   </Folder>
   <Folder Name="/sdk/Docker/test/">
     <Project Path="sdk/Docker/test/Hyprx.Pulumi.Docker.Tests.csproj" />
-  </Folder>
-  <Folder Name="/sdk/FluentBuilder/" />
-  <Folder Name="/sdk/FluentBuilder/src/">
-    <Project Path="sdk/FluentBuilder/src/Hyprx.Pulumi.FluentBuilder.csproj" />
-  </Folder>
-  <Folder Name="/sdk/FluentBuilder/test/">
-    <Project Path="sdk/FluentBuilder/test/Hyprx.Pulumi.FluentBuilder.Tests.csproj" />
   </Folder>
   <Folder Name="/sdk/Github/" />
   <Folder Name="/sdk/Github/src/">

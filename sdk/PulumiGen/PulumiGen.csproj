@@ -7,4 +7,25 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Pulumi" />
+    <PackageReference Include="Pulumi.Acme"  />
+    <PackageReference Include="Pulumi.AzureNative"  />
+    <PackageReference Include="Pulumi.AzureAd"  />
+    <PackageReference Include="Pulumi.AzureDevOps"  />
+    <PackageReference Include="Pulumi.Cloudflare"  />
+    <PackageReference Include="Pulumi.Command"  />
+    <PackageReference Include="Pulumi.Docker"  />
+    <PackageReference Include="Pulumi.DigitalOcean"  />
+    <PackageReference Include="Pulumi.GitHub"  />
+    <PackageReference Include="Pulumi.Libvirt"  />
+    <PackageReference Include="Pulumi.ProxmoxVE"  />
+    <PackageReference Include="Pulumi.Random"  />
+    <PackageReference Include="Pulumi.Slack"  />
+    <PackageReference Include="Pulumi.TlsSelfSignedCert"  />
+    <PackageReference Include="Pulumi.Unifi" />
+    <PackageReference Include="Pulumi.Vault"  />
+  </ItemGroup>
+    
+
 </Project>

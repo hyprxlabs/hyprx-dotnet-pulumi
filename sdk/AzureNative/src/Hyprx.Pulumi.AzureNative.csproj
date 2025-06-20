@@ -22,4 +22,17 @@
     <None Condition="Exists('$(IconPath)')" Include="$(IconPath)" Pack="true" PackagePath="\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Pulumi" />
+    <PackageReference Include="Pulumi.AzureNative" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Pulumi/*.csproj" />
+    <ProjectReference Include="../../FluentBuilder/*.csproj" PrivateAssets="all" 
+      OutputItemType="Analyzer"
+      ReferenceOutputAssembly="false"
+     />
+  </ItemGroup>
+
 </Project>

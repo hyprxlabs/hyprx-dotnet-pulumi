@@ -22,4 +22,6 @@
     <None Condition="Exists('$(IconPath)')" Include="$(IconPath)" Pack="true" PackagePath="\" />
   </ItemGroup>
 
+
+
 </Project>

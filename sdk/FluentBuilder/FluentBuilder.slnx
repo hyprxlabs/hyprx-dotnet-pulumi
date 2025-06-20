@@ -1,8 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Hyprx.Pulumi.FluentBuilder.csproj" />
-  </Folder>
-  <Folder Name="/test/">
-    <Project Path="test/Hyprx.Pulumi.FluentBuilder.Tests.csproj" />
-  </Folder>
-</Solution>
