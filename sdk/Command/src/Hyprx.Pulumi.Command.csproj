@@ -22,4 +22,13 @@
     <None Condition="Exists('$(IconPath)')" Include="$(IconPath)" Pack="true" PackagePath="\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Pulumi" />
+    <PackageReference Include="Pulumi.Command" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../Pulumi/*.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Pulumi" />
-    <PackageReference Include="Pulumi.Acme"  />
+    <PackageReference Include="Pulumiverse.Acme"  />
     <PackageReference Include="Pulumi.AzureNative"  />
     <PackageReference Include="Pulumi.AzureAd"  />
     <PackageReference Include="Pulumi.AzureDevOps"  />
@@ -23,7 +23,7 @@
     <PackageReference Include="Pulumi.Random"  />
     <PackageReference Include="Pulumi.Slack"  />
     <PackageReference Include="Pulumi.TlsSelfSignedCert"  />
-    <PackageReference Include="Pulumi.Unifi" />
+    <PackageReference Include="Pulumiverse.Unifi" />
     <PackageReference Include="Pulumi.Vault"  />
   </ItemGroup>
     

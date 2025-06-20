@@ -1,5 +1,3 @@
-
-
 namespace Pulumi.AzureNative;
 
 public class AzTags : Dictionary<string, string?>
@@ -41,6 +39,7 @@ public class AzTags : Dictionary<string, string?>
         {
             this[item.key] = item.value;
         }
+
         return this;
     }
 
@@ -51,6 +50,7 @@ public class AzTags : Dictionary<string, string?>
         {
             result[item.Key] = item.Value;
         }
+
         return result;
     }
 
@@ -61,9 +61,10 @@ public class AzTags : Dictionary<string, string?>
         {
             result.Remove(item.Key);
         }
+
         return result;
     }
-    
+
     public static AzTags Create(IEnumerable<(string key, string? value)> items)
     {
         var result = new AzTags();
@@ -71,6 +72,7 @@ public class AzTags : Dictionary<string, string?>
         {
             result[item.key] = item.value;
         }
+
         return result;
     }
 }

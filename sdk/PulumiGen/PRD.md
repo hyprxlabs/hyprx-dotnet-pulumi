@@ -20,9 +20,12 @@ Any generated file shall include at the top of the file
 Any generated code must not have warnings, style issues, or errors.  It should be able to handle
 any pulumi assembly that is reference in the PulumiGen csproj folder.
 
-For example, the argument "AzureNative" should tell the program to load the Pulumi.AzureNative
+When the short name is passed to the program, it should load the correct pulumi assembly,
+inspect the types, generate files that contain classes, and saves the files to the correct project.
+
+For example, if the argument "AzureNative" is used, that will tell the program to load the Pulumi.AzureNative
 assembly into memory, inspect the types, generate classes and save the files to the
-right folders or subfolders in the project Hyprx.Pulumi.AzureNative found
+right folders or subfolders in the project Hyprx.Pulumi.AzureNative.csproj found
 in the folder `./sdk/AzureNative/src`.
 
 When a public class that is not abstract or static is found that inherits from `Pulumi.CustomResource`
@@ -30,7 +33,7 @@ a public static class for extensions must be created.  If the class is called Pu
 then the file should be called StorageAccountExtensions and live with in the Pulumi.AzureNative.Storage namespace
 and be saved to the subfolder "Storage" e.g. `./sdk/AzureNative/src/Storage/StorageAccountExtensions.g.cs`
 
-The constructor should be inspected and based upon the arguments in the constructor, static methods called new
+The constructor should be inspected and based upon the arguments in the constructor, static methods called `New`
 will be generated using new "extension" keyword in C#. see extension members:
 <https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods>
 

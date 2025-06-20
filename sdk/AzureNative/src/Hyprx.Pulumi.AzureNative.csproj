@@ -29,10 +29,6 @@
 
   <ItemGroup>
     <ProjectReference Include="../../Pulumi/*.csproj" />
-    <ProjectReference Include="../../FluentBuilder/*.csproj" PrivateAssets="all" 
-      OutputItemType="Analyzer"
-      ReferenceOutputAssembly="false"
-     />
   </ItemGroup>
 
 </Project>

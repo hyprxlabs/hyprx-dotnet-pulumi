@@ -1,4 +1,3 @@
-
 namespace PulumiGen;
 
 public static class Utils
